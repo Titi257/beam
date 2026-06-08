@@ -5,6 +5,14 @@
         <item>
             <title>0.1.0</title>
             <pubDate>Mon, 08 Jun 2026 18:06:37 +0200</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Titi257/beam/releases/latest/download/Beam.dmg" length="2154673" type="application/octet-stream" sparkle:edSignature="TpvYyu1+6K1QiqeBeXquK8BukToFqC8sp/0/Mh0FaeQDK9dJY+s7E3sWmn+jXZMuHS1lN2Ksyq5PCOmK7vu8AA=="/>
+        </item>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Mon, 08 Jun 2026 18:06:37 +0200</pubDate>
             <sparkle:version>14</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
