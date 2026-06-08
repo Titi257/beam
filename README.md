@@ -8,7 +8,7 @@
 
 Fast, native macOS screen-sharing & remote control — Mac to Mac.
 
-[**⬇︎ Download Beam.dmg**](https://github.com/Titi257/beam/releases/latest)
+[**⬇︎ Download Beam.dmg**](https://github.com/Titi257/beam/releases/latest/download/Beam.dmg)
 
 </div>
 
@@ -20,7 +20,7 @@ See and **control** another Mac (mouse + keyboard), on your local network or ove
 - **Over the Internet** — connect by **ID** from anywhere through a small relay server.
 - **Full remote control** (mouse + keyboard), or **read-only mode** (view without controlling).
 - **AnyDesk-style pairing**: "Share my screen" gives a **9-digit ID** that's stable per machine; the other Mac types it.
-- **End-to-end encrypted** (X25519 ECDH + AES-GCM) — neither the LAN link nor the relay ever sees anything but ciphertext. A **security code** shown on both sides can be compared aloud to rule out an active man-in-the-middle.
+- **End-to-end encrypted** (X25519 ECDH + AES-GCM) — neither the LAN link nor the relay ever sees anything but ciphertext. A **security code** shown on both sides can be compared aloud to detect an active man-in-the-middle.
 - **Shared clipboard** (text + image) and a live **quality readout** (FPS, throughput, latency, direct vs relay).
 - **Automatic updates** built in.
 
@@ -54,4 +54,4 @@ Beam checks for updates automatically and offers **App ▸ Check for Updates…*
 
 ## Privacy & security
 
-Media is **always end-to-end encrypted**. The relay (Internet mode) only ever sees ciphertext. Personal project, not security-audited — treat it accordingly.
+Media is **always end-to-end encrypted**. The relay (Internet mode) only ever sees ciphertext. The code has been **reviewed for security** (frame-size limits, hardened key-verification code), but it has **not had a formal independent audit** — treat it accordingly.

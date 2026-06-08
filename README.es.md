@@ -8,7 +8,7 @@
 
 Compartir pantalla y control remoto nativo para macOS — de Mac a Mac, rápido.
 
-[**⬇︎ Descargar Beam.dmg**](https://github.com/Titi257/beam/releases/latest)
+[**⬇︎ Descargar Beam.dmg**](https://github.com/Titi257/beam/releases/latest/download/Beam.dmg)
 
 </div>
 
@@ -20,7 +20,7 @@ Ver y **controlar** otro Mac (ratón + teclado), en red local o por Internet, ci
 - **Por Internet** — conexión por **ID** desde cualquier lugar, mediante un pequeño servidor de retransmisión.
 - **Control remoto completo** (ratón + teclado), o **modo solo lectura** (ver sin controlar).
 - **Emparejamiento estilo AnyDesk**: «Compartir mi pantalla» da un **ID de 9 cifras** estable por equipo; el otro Mac lo introduce.
-- **Cifrado de extremo a extremo** (X25519 ECDH + AES-GCM) — ni la red local ni el relé ven nada más que texto cifrado. Un **código de seguridad** mostrado en ambos lados puede compararse en voz alta para descartar un ataque de intermediario activo.
+- **Cifrado de extremo a extremo** (X25519 ECDH + AES-GCM) — ni la red local ni el relé ven nada más que texto cifrado. Un **código de seguridad** mostrado en ambos lados puede compararse en voz alta para detectar un ataque de intermediario activo (MITM).
 - **Portapapeles compartido** (texto + imagen) e **indicador de calidad** en vivo (FPS, tasa de datos, latencia, directo vs relé).
 - **Actualizaciones automáticas** integradas.
 
@@ -54,4 +54,4 @@ Beam busca actualizaciones automáticamente y ofrece **App ▸ Buscar actualizac
 
 ## Privacidad y seguridad
 
-El contenido está **siempre cifrado de extremo a extremo**. El relé (modo Internet) solo ve texto cifrado. Proyecto personal, sin auditoría de seguridad — úsalo en consecuencia.
+El contenido está **siempre cifrado de extremo a extremo**. El relé (modo Internet) solo ve texto cifrado. El código ha sido **revisado en cuanto a seguridad** (límites de tamaño de trama, verificación de clave reforzada), pero **sin una auditoría formal independiente** — úsalo en consecuencia.

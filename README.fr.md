@@ -8,7 +8,7 @@
 
 Partage d'écran et contrôle à distance natif pour macOS — de Mac à Mac, rapide.
 
-[**⬇︎ Télécharger Beam.dmg**](https://github.com/Titi257/beam/releases/latest)
+[**⬇︎ Télécharger Beam.dmg**](https://github.com/Titi257/beam/releases/latest/download/Beam.dmg)
 
 </div>
 
@@ -20,7 +20,7 @@ Voir et **contrôler** un autre Mac (souris + clavier), en réseau local ou via 
 - **Via Internet** — connexion par **ID** depuis n'importe où, via un petit serveur relais.
 - **Contrôle complet** clavier + souris, ou **mode lecture seule** (voir sans contrôler).
 - **Appairage façon AnyDesk** : « Partager mon écran » donne un **ID à 9 chiffres** stable par machine ; l'autre Mac le saisit.
-- **Chiffrement de bout en bout** (X25519 ECDH + AES-GCM) — ni le réseau local ni le relais ne voient autre chose que du chiffré. Un **code de sécurité** affiché des deux côtés se vérifie à l'oral pour écarter toute interception active.
+- **Chiffrement de bout en bout** (X25519 ECDH + AES-GCM) — ni le réseau local ni le relais ne voient autre chose que du chiffré. Un **code de sécurité** affiché des deux côtés se vérifie à l'oral pour détecter une interception active (MITM).
 - **Presse-papiers partagé** (texte + image) et **indicateur de qualité** en direct (FPS, débit, latence, direct vs relais).
 - **Mises à jour automatiques** intégrées.
 
@@ -54,4 +54,4 @@ Beam vérifie les mises à jour automatiquement et propose **App ▸ Rechercher 
 
 ## Confidentialité & sécurité
 
-Le média est **toujours chiffré de bout en bout**. Le relais (mode Internet) ne voit que du chiffré. Projet personnel, non audité — à utiliser en connaissance de cause.
+Le média est **toujours chiffré de bout en bout**. Le relais (mode Internet) ne voit que du chiffré. Le code a été **revu côté sécurité** (limites de taille de trame, vérification de clé renforcée), mais **sans audit formel indépendant** — à utiliser en connaissance de cause.
