@@ -8,7 +8,7 @@
             <sparkle:version>34</sparkle:version>
             <sparkle:shortVersionString>0.2.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Titi257/beam/releases/latest/download/Beam.dmg" length="2862522" type="application/octet-stream" sparkle:edSignature="ozuXkcYqhFUzunTHi8lTrSNu5LRiXSv10LAoGezIt3anyCSMElmNypRJ9pyubnp4D7rPDw07c+3zQJs/+O4zAw=="/>
+            <enclosure url="https://github.com/Titi257/beam/releases/download/v0.2.13/Beam.dmg" length="2862522" type="application/octet-stream" sparkle:edSignature="ozuXkcYqhFUzunTHi8lTrSNu5LRiXSv10LAoGezIt3anyCSMElmNypRJ9pyubnp4D7rPDw07c+3zQJs/+O4zAw=="/>
         </item>
     </channel>
 </rss>
