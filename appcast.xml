@@ -3,12 +3,12 @@
     <channel>
         <title>Beam</title>
         <item>
-            <title>0.2.1</title>
-            <pubDate>Tue, 09 Jun 2026 07:47:50 +0200</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <title>0.2.2</title>
+            <pubDate>Tue, 09 Jun 2026 09:16:01 +0200</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Titi257/beam/releases/latest/download/Beam.dmg" length="2716225" type="application/octet-stream" sparkle:edSignature="Nar1iFyfxA0UHAfM9VPSZjyMrUhewH1FMGGRsYHhMvoWEwyD4qRvZAGyN42HEc56UeVMaRSpgZwt5uSzXvS+Cw=="/>
+            <enclosure url="https://github.com/Titi257/beam/releases/latest/download/Beam.dmg" length="2725771" type="application/octet-stream" sparkle:edSignature="3ujVsj37qdp6Dm/R1vhh0nWtrUxqop1/Xyja8+LWEPC+PokM5C+jBcARAvbRFPGczl1f3co0ufosFtwoZ2unDg=="/>
         </item>
     </channel>
 </rss>
