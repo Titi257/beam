@@ -19,7 +19,7 @@ See and **control** another Mac (mouse + keyboard), on your local network or ove
 - **Three connection modes, chosen automatically — nothing to configure:**
   - **Local network (LAN)**: two Macs on the same network connect **directly**, no server, lowest latency.
   - **Direct (P2P)**: over the Internet, Beam tries a direct peer-to-peer link to bypass the relay when the network allows.
-  - **Relay (Internet)**: otherwise, traffic goes through the **nearest** relay (multi-region) — works behind any router, from anywhere.
+  - **Relay (Internet)**: otherwise, traffic goes through a secure relay — works behind any router, from anywhere.
 - Connect from anywhere by **ID** — no IP or server address to type.
 - **Full remote control** (mouse + keyboard), or **read-only mode** (view without controlling).
 - **AnyDesk-style pairing**: "Share my screen" gives a **9-digit ID** that's stable per machine; the other Mac types it.

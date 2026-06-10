@@ -19,7 +19,7 @@ Ver y **controlar** otro Mac (ratón + teclado), en red local o por Internet, ci
 - **Tres modos de conexión, elegidos automáticamente — nada que configurar:**
   - **Red local (LAN)**: dos Macs en la misma red se conectan **directamente**, sin servidor, mínima latencia.
   - **Directo (P2P)**: por Internet, Beam intenta un enlace directo de igual a igual para evitar el relé cuando la red lo permite.
-  - **Relé (Internet)**: si no, el tráfico pasa por el relé **más cercano** (multirregión) — funciona detrás de cualquier router, en cualquier lugar.
+  - **Relé (Internet)**: si no, el tráfico pasa por un relé seguro — funciona detrás de cualquier router, en cualquier lugar.
 - Conéctate desde cualquier lugar por **ID** — sin IP ni dirección de servidor que escribir.
 - **Control remoto completo** (ratón + teclado), o **modo solo lectura** (ver sin controlar).
 - **Emparejamiento estilo AnyDesk**: «Compartir mi pantalla» da un **ID de 9 cifras** estable por equipo; el otro Mac lo introduce.
