@@ -16,8 +16,11 @@ Partage d'écran et contrôle à distance natif pour macOS — de Mac à Mac, ra
 
 Voir et **contrôler** un autre Mac (souris + clavier), en réseau local ou via Internet, chiffré de bout en bout. Application **universelle** (Intel + Apple Silicon).
 
-- **Réseau local : zéro configuration** — deux Macs sur le même Wi-Fi/réseau se trouvent et se connectent **directement** (latence minimale).
-- **Via Internet** — connexion par **ID** depuis n'importe où, via un petit serveur relais.
+- **Trois modes de connexion, choisis automatiquement — rien à configurer :**
+  - **Réseau local (LAN)** : deux Macs sur le même réseau se connectent **directement**, sans serveur, latence minimale.
+  - **Direct (P2P)** : via Internet, Beam tente un lien direct de pair à pair pour court-circuiter le relais quand le réseau le permet.
+  - **Relais (Internet)** : sinon, le trafic passe par le relais **le plus proche** (multi-régions) — fonctionne derrière n'importe quel routeur, partout.
+- Connexion depuis n'importe où par **ID** — aucune IP ni adresse de serveur à saisir.
 - **Contrôle complet** clavier + souris, ou **mode lecture seule** (voir sans contrôler).
 - **Appairage façon AnyDesk** : « Partager mon écran » donne un **ID à 9 chiffres** stable par machine ; l'autre Mac le saisit.
 - **Chiffrement de bout en bout** (X25519 ECDH + AES-GCM) — ni le réseau local ni le relais ne voient autre chose que du chiffré. Un **code de sécurité** affiché des deux côtés se vérifie à l'oral pour détecter une interception active (MITM).
@@ -44,7 +47,7 @@ Dans la fenêtre unique :
 - **Partager mon écran** → vous obtenez un **ID**. Donnez-le à qui doit voir votre écran. À la connexion, une fenêtre **Accepter / Refuser** s'affiche ; accepter donne le contrôle clavier/souris (sauf en **lecture seule**).
 - **Contrôler un autre Mac** → saisissez l'**ID** de l'autre Mac et cliquez **Se connecter**.
 
-Laissez le champ serveur **vide** pour le mode réseau local (sans serveur), ou renseignez l'adresse de votre relais pour le mode Internet (les deux Macs doivent utiliser le **même** serveur).
+**Rien à configurer** : Beam se connecte en direct sur votre réseau local quand c'est possible, et utilise sinon son relais intégré automatiquement (en choisissant le plus proche). Une adresse de relais existe dans une section **avancée** optionnelle que vous n'avez normalement jamais besoin de toucher.
 
 Au premier usage, macOS demande **Enregistrement de l'écran**, **Accessibilité** et (en LAN) **Réseau local** — uniquement au côté qui en a besoin.
 

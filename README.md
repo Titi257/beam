@@ -16,8 +16,11 @@ Fast, native macOS screen-sharing & remote control — Mac to Mac.
 
 See and **control** another Mac (mouse + keyboard), on your local network or over the Internet, end-to-end encrypted. **Universal** app (Intel + Apple Silicon).
 
-- **Local network: zero setup** — two Macs on the same Wi-Fi/LAN find each other and connect **directly** (lowest latency).
-- **Over the Internet** — connect by **ID** from anywhere through a small relay server.
+- **Three connection modes, chosen automatically — nothing to configure:**
+  - **Local network (LAN)**: two Macs on the same network connect **directly**, no server, lowest latency.
+  - **Direct (P2P)**: over the Internet, Beam tries a direct peer-to-peer link to bypass the relay when the network allows.
+  - **Relay (Internet)**: otherwise, traffic goes through the **nearest** relay (multi-region) — works behind any router, from anywhere.
+- Connect from anywhere by **ID** — no IP or server address to type.
 - **Full remote control** (mouse + keyboard), or **read-only mode** (view without controlling).
 - **AnyDesk-style pairing**: "Share my screen" gives a **9-digit ID** that's stable per machine; the other Mac types it.
 - **End-to-end encrypted** (X25519 ECDH + AES-GCM) — neither the LAN link nor the relay ever sees anything but ciphertext. A **security code** shown on both sides can be compared aloud to detect an active man-in-the-middle.
@@ -44,7 +47,7 @@ In the single window:
 - **Share my screen** → you get an **ID**. Give it to whoever should see your screen. On connect you get an **Accept / Deny** prompt; accepting grants keyboard/mouse control (unless **read-only** is on).
 - **Control another Mac** → type the other Mac's **ID** and click **Connect**.
 
-Leave the server field **empty** for local-network mode (no server), or fill in your relay's address for Internet mode (both Macs must use the **same** server).
+There's **nothing to configure**: Beam connects directly on your local network when possible, and otherwise uses its built-in relay automatically (picking the nearest one). A relay address lives in an optional **advanced** section you normally never need to touch.
 
 First use prompts for **Screen Recording**, **Accessibility**, and (LAN mode) **Local Network** — macOS only asks the side that needs each.
 
